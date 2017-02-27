@@ -1,2 +1,4 @@
 # C-horse
-"# C-horse" 
+This is an attempt to create a c++ editor that will work with my win-cpp-build script. Initially it is just one big scintilla textbox which can be highlighted, but eventually it should have a toolbar with "build", "run", "clean" and "install" buttons on it, exactly like the command win-cpp-build supports.
+
+Win-cpp-build is a batch- and header file which you can find on bitbucket @ [bitbucket.org/wincppdeps/win-cpp-build](https://bitbucket.org/wincppdeps/win-cpp-build). It is my brainfart on how to compile a c++ project by a c++ build file. The batch file will compile your c++ project file into a executable, which will be called with one of its commands; build, run, clean, install. The header file contains some code for you to use describe your project.

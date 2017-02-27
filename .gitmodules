@@ -1,0 +1,3 @@
+[submodule "libs/scintilla"]
+	path = libs/scintilla
+	url = https://github.com/mirror/scintilla.git
